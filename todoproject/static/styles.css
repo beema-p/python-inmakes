@@ -1,0 +1,15 @@
+.banner{
+background-color:forestgreen;
+height:100px;
+width:100%
+transform:transform;
+}
+
+.banner-txt{
+font-family:courier;
+color:goldenrod;
+left:40%;
+top:30px;
+position:absolute;
+
+}

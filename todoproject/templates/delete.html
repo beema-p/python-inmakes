@@ -1,0 +1,27 @@
+
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+        <div class="col-md-6">
+
+            <div class="card card text-black bg-success mb-3 card text-center" >
+                <div class="shadow card-body">
+                    <form method="post">
+    {%csrf_token %}
+    <h3>Are You Sure About This Deletion?? </h3><br>
+    <input type="submit" class="btn btn-warning" value="delete">
+
+</form>
+{% endblock %}
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</div>
